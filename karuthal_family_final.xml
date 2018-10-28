@@ -1,0 +1,403 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Karuthal_Family</h:title>
+    <model>
+      <instance>
+        <data id="build_Untitled-Form_1533903263">
+          <meta>
+            <instanceID/>
+          </meta>
+          <user/>
+          <phne/>
+          <common>
+            <wardno/>
+            <hno/>
+            <subdoor/>
+            <house-name/>
+          </common>
+          <family1>
+            <name/>
+            <age/>
+            <sex/>
+          </family1>
+          <family2>
+            <relation/>
+            <qualification/>
+            <occupation>
+              -
+            </occupation>
+            <pl_of_emplo>
+              -
+            </pl_of_emplo>
+            <pension/>
+            <pension_amt>
+              -
+            </pension_amt>
+          </family2>
+          <chronic_disease>
+            <disabled/>
+            <bedridden/>
+            <type>
+              None
+            </type>
+            <hospitalised/>
+            <name_of_hospital>
+              -
+            </name_of_hospital>
+          </chronic_disease>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/common:label">
+            <value>Common</value>
+          </text>
+          <text id="/data/common/wardno:label">
+            <value>Ward Number</value>
+          </text>
+          <text id="/data/common/hno:label">
+            <value>House Number</value>
+          </text>
+          <text id="/data/common/hno:hint">
+            <value>Type &quot;NA&quot; if not present</value>
+          </text>
+          <text id="/data/common/subdoor:label">
+            <value>Sub Door Number</value>
+          </text>
+          <text id="/data/common/subdoor:hint">
+            <value>[A,B,C.....] - [&quot;NA&quot; if not present]</value>
+          </text>
+          <text id="/data/common/house-name:label">
+            <value>House Name</value>
+          </text>
+          <text id="/data/family1:label">
+            <value>Family #1</value>
+          </text>
+          <text id="/data/family1/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/family1/name:hint">
+            <value>First person should be Family Head</value>
+          </text>
+          <text id="/data/family1/age:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/family1/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/data/family1/sex:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/family1/sex:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/family1/sex:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/family2:label">
+            <value>Family #2</value>
+          </text>
+          <text id="/data/family2/relation:label">
+            <value>Relation with Family Head</value>
+          </text>
+          <text id="/data/family2/relation:option0">
+            <value>Father</value>
+          </text>
+          <text id="/data/family2/relation:option1">
+            <value>Mother</value>
+          </text>
+          <text id="/data/family2/relation:option2">
+            <value>Husband</value>
+          </text>
+          <text id="/data/family2/relation:option3">
+            <value>Wife</value>
+          </text>
+          <text id="/data/family2/relation:option4">
+            <value>Son</value>
+          </text>
+          <text id="/data/family2/relation:option5">
+            <value>Daughter</value>
+          </text>
+          <text id="/data/family2/relation:option6">
+            <value>Grandson</value>
+          </text>
+          <text id="/data/family2/relation:option7">
+            <value>Grand Daughter</value>
+          </text>
+          <text id="/data/family2/relation:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/family2/relation:option9">
+            <value>Family Head</value>
+          </text>
+          <text id="/data/family2/qualification:label">
+            <value>Qualification</value>
+          </text>
+          <text id="/data/family2/occupation:label">
+            <value>Occupation</value>
+          </text>
+          <text id="/data/family2/pl_of_emplo:label">
+            <value>Place of Employment</value>
+          </text>
+          <text id="/data/family2/pension:label">
+            <value>Pension</value>
+          </text>
+          <text id="/data/family2/pension:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/family2/pension:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/family2/pension_amt:label">
+            <value>Pension Amount</value>
+          </text>
+          <text id="/data/family2/pension_amt:hint">
+            <value>in Rupees</value>
+          </text>
+          <text id="/data/chronic_disease:label">
+            <value>Chronic Disease</value>
+          </text>
+          <text id="/data/chronic_disease/disabled:label">
+            <value>Disabled</value>
+          </text>
+          <text id="/data/chronic_disease/disabled:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/chronic_disease/disabled:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/chronic_disease/bedridden:label">
+            <value>Bedridden</value>
+          </text>
+          <text id="/data/chronic_disease/bedridden:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/chronic_disease/bedridden:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/chronic_disease/type:label">
+            <value>Type of Disease</value>
+          </text>
+          <text id="/data/chronic_disease/type:option0">
+            <value>Kidney</value>
+          </text>
+          <text id="/data/chronic_disease/type:option1">
+            <value>Heart</value>
+          </text>
+          <text id="/data/chronic_disease/type:option2">
+            <value>Cancer</value>
+          </text>
+          <text id="/data/chronic_disease/type:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/chronic_disease/hospitalised:label">
+            <value>Hospitalised</value>
+          </text>
+          <text id="/data/chronic_disease/hospitalised:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/chronic_disease/hospitalised:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/chronic_disease/name_of_hospital:label">
+            <value>Name of Hospital</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <submission method="form-data-post" action="https://docs.google.com/spreadsheets/d/1J_aqGQa6A2ZxzTKbrq4cyaI-t5eQPNCYAdP-OQMJ2Ik/edit?usp=sharing"/>
+      <bind nodeset="/data/user" type="string" jr:preload="property" jr:preloadParams="username"/>
+      <bind nodeset="/data/phne" type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
+      <bind nodeset="/data/common/wardno" type="int" required="true()"/>
+      <bind nodeset="/data/common/hno" type="int" required="true()"/>
+      <bind nodeset="/data/common/subdoor" type="string" required="true()"/>
+      <bind nodeset="/data/common/house-name" type="string" required="true()"/>
+      <bind nodeset="/data/family1/name" type="string" required="true()"/>
+      <bind nodeset="/data/family1/age" type="int"/>
+      <bind nodeset="/data/family1/sex" type="select1" required="true()"/>
+      <bind nodeset="/data/family2/relation" type="select1" required="true()"/>
+      <bind nodeset="/data/family2/qualification" type="string"/>
+      <bind nodeset="/data/family2/occupation" type="string"/>
+      <bind nodeset="/data/family2/pl_of_emplo" type="string"/>
+      <bind nodeset="/data/family2/pension" type="select1"/>
+      <bind nodeset="/data/family2/pension_amt" type="int"/>
+      <bind nodeset="/data/chronic_disease/disabled" type="select1" required="true()"/>
+      <bind nodeset="/data/chronic_disease/bedridden" type="select1" required="true()"/>
+      <bind nodeset="/data/chronic_disease/type" type="select" required="true()"/>
+      <bind nodeset="/data/chronic_disease/hospitalised" type="select1" required="true()"/>
+      <bind nodeset="/data/chronic_disease/name_of_hospital" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/common:label')"/>
+      <input ref="/data/common/wardno">
+        <label ref="jr:itext('/data/common/wardno:label')"/>
+      </input>
+      <input ref="/data/common/hno">
+        <label ref="jr:itext('/data/common/hno:label')"/>
+        <hint ref="jr:itext('/data/common/hno:hint')"/>
+      </input>
+      <input ref="/data/common/subdoor">
+        <label ref="jr:itext('/data/common/subdoor:label')"/>
+        <hint ref="jr:itext('/data/common/subdoor:hint')"/>
+      </input>
+      <input ref="/data/common/house-name">
+        <label ref="jr:itext('/data/common/house-name:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/family1:label')"/>
+      <input ref="/data/family1/name">
+        <label ref="jr:itext('/data/family1/name:label')"/>
+        <hint ref="jr:itext('/data/family1/name:hint')"/>
+      </input>
+      <input ref="/data/family1/age">
+        <label ref="jr:itext('/data/family1/age:label')"/>
+      </input>
+      <select1 ref="/data/family1/sex" appearance="minimal">
+        <label ref="jr:itext('/data/family1/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/family1/sex:option0')"/>
+          <value>male</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family1/sex:option1')"/>
+          <value>female</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family1/sex:option2')"/>
+          <value>other</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/family2:label')"/>
+      <select1 ref="/data/family2/relation">
+        <label ref="jr:itext('/data/family2/relation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option0')"/>
+          <value>father</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option1')"/>
+          <value>mother</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option2')"/>
+          <value>husband</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option3')"/>
+          <value>wife</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option4')"/>
+          <value>son</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option5')"/>
+          <value>daughter</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option6')"/>
+          <value>grandson</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option7')"/>
+          <value>grand_daughter</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option8')"/>
+          <value>other</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/relation:option9')"/>
+          <value>head</value>
+        </item>
+      </select1>
+      <input ref="/data/family2/qualification">
+        <label ref="jr:itext('/data/family2/qualification:label')"/>
+      </input>
+      <input ref="/data/family2/occupation">
+        <label ref="jr:itext('/data/family2/occupation:label')"/>
+      </input>
+      <input ref="/data/family2/pl_of_emplo">
+        <label ref="jr:itext('/data/family2/pl_of_emplo:label')"/>
+      </input>
+      <select1 ref="/data/family2/pension" appearance="minimal">
+        <label ref="jr:itext('/data/family2/pension:label')"/>
+        <item>
+          <label ref="jr:itext('/data/family2/pension:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/family2/pension:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/family2/pension_amt">
+        <label ref="jr:itext('/data/family2/pension_amt:label')"/>
+        <hint ref="jr:itext('/data/family2/pension_amt:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/chronic_disease:label')"/>
+      <select1 ref="/data/chronic_disease/disabled" appearance="minimal">
+        <label ref="jr:itext('/data/chronic_disease/disabled:label')"/>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/disabled:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/disabled:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/chronic_disease/bedridden" appearance="minimal">
+        <label ref="jr:itext('/data/chronic_disease/bedridden:label')"/>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/bedridden:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/bedridden:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/data/chronic_disease/type" appearance="minimal">
+        <label ref="jr:itext('/data/chronic_disease/type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/type:option0')"/>
+          <value>kidney</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/type:option1')"/>
+          <value>heart</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/type:option2')"/>
+          <value>cancer</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/type:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select1 ref="/data/chronic_disease/hospitalised" appearance="minimal">
+        <label ref="jr:itext('/data/chronic_disease/hospitalised:label')"/>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/hospitalised:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/chronic_disease/hospitalised:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/chronic_disease/name_of_hospital">
+        <label ref="jr:itext('/data/chronic_disease/name_of_hospital:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

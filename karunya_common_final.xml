@@ -1,0 +1,391 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Karunya _Common</h:title>
+    <model>
+      <instance>
+        <data id="build_Untitled-Form_1533903188">
+          <meta>
+            <instanceID/>
+          </meta>
+          <user/>
+          <phne/>
+          <common>
+            <wardno/>
+            <hno/>
+            <subdoor/>
+            <rationcard/>
+            <house-name/>
+          </common>
+          <kaar_karu>
+            <enrollment_status/>
+            <fee_paid/>
+            <receipt_no/>
+          </kaar_karu>
+          <general1>
+            <agriculture/>
+            <water_sources/>
+            <irrigation/>
+          </general1>
+          <general2>
+            <sanitation/>
+            <waste_disposal/>
+          </general2>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/common:label">
+            <value>Common</value>
+          </text>
+          <text id="/data/common/wardno:label">
+            <value>Ward Number</value>
+          </text>
+          <text id="/data/common/hno:label">
+            <value>House Number</value>
+          </text>
+          <text id="/data/common/hno:hint">
+            <value>Type &quot;NA&quot; if not present</value>
+          </text>
+          <text id="/data/common/subdoor:label">
+            <value>Sub Door Number</value>
+          </text>
+          <text id="/data/common/subdoor:hint">
+            <value>[A,B,C.....] - [&quot;NA&quot; if not present]</value>
+          </text>
+          <text id="/data/common/rationcard:label">
+            <value>Ration Card Number</value>
+          </text>
+          <text id="/data/common/rationcard:hint">
+            <value>Type &quot;NA&quot; if not available</value>
+          </text>
+          <text id="/data/common/house-name:label">
+            <value>House Name</value>
+          </text>
+          <text id="/data/kaar_karu:label">
+            <value>Kaarunyavum Karuthalum</value>
+          </text>
+          <text id="/data/kaar_karu/enrollment_status:label">
+            <value>Enrollment Status</value>
+          </text>
+          <text id="/data/kaar_karu/enrollment_status:hint">
+            <value>Are you currently enrolled in Kaarunyavum Karuthalum?</value>
+          </text>
+          <text id="/data/kaar_karu/enrollment_status:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/kaar_karu/enrollment_status:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kaar_karu/enrollment_status:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/kaar_karu/fee_paid:label">
+            <value>Fee Status</value>
+          </text>
+          <text id="/data/kaar_karu/fee_paid:hint">
+            <value>Have you paid the registration fee?</value>
+          </text>
+          <text id="/data/kaar_karu/fee_paid:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/kaar_karu/fee_paid:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kaar_karu/fee_paid:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/kaar_karu/receipt_no:label">
+            <value>Receipt Number</value>
+          </text>
+          <text id="/data/general1:label">
+            <value>General #1</value>
+          </text>
+          <text id="/data/general1/agriculture:label">
+            <value>Agriculture</value>
+          </text>
+          <text id="/data/general1/agriculture:option0">
+            <value>Coconut</value>
+          </text>
+          <text id="/data/general1/agriculture:option1">
+            <value>Paddy</value>
+          </text>
+          <text id="/data/general1/agriculture:option2">
+            <value>Vegetables</value>
+          </text>
+          <text id="/data/general1/agriculture:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/general1/agriculture:option4">
+            <value>None</value>
+          </text>
+          <text id="/data/general1/water_sources:label">
+            <value>Water Sources</value>
+          </text>
+          <text id="/data/general1/water_sources:option0">
+            <value>Open Well</value>
+          </text>
+          <text id="/data/general1/water_sources:option1">
+            <value>Bore Well</value>
+          </text>
+          <text id="/data/general1/water_sources:option2">
+            <value>Pipe Connection</value>
+          </text>
+          <text id="/data/general1/water_sources:option3">
+            <value>Public Tank</value>
+          </text>
+          <text id="/data/general1/water_sources:option4">
+            <value>Lorry Water Supply</value>
+          </text>
+          <text id="/data/general1/water_sources:option5">
+            <value>Others</value>
+          </text>
+          <text id="/data/general1/irrigation:label">
+            <value>Irrigation</value>
+          </text>
+          <text id="/data/general1/irrigation:option0">
+            <value>Well</value>
+          </text>
+          <text id="/data/general1/irrigation:option1">
+            <value>Pond</value>
+          </text>
+          <text id="/data/general1/irrigation:option2">
+            <value>Lift Irrigation</value>
+          </text>
+          <text id="/data/general1/irrigation:option3">
+            <value>None</value>
+          </text>
+          <text id="/data/general2:label">
+            <value>General #2</value>
+          </text>
+          <text id="/data/general2/sanitation:label">
+            <value>Sanitation</value>
+          </text>
+          <text id="/data/general2/sanitation:option0">
+            <value>Flush Toilet</value>
+          </text>
+          <text id="/data/general2/sanitation:option1">
+            <value>ESP Latrine</value>
+          </text>
+          <text id="/data/general2/sanitation:option2">
+            <value>Pit Latrine</value>
+          </text>
+          <text id="/data/general2/sanitation:option3">
+            <value>Septic Tank</value>
+          </text>
+          <text id="/data/general2/sanitation:option4">
+            <value>None</value>
+          </text>
+          <text id="/data/general2/waste_disposal:label">
+            <value>Waste Disposal</value>
+          </text>
+          <text id="/data/general2/waste_disposal:option0">
+            <value>Biogas</value>
+          </text>
+          <text id="/data/general2/waste_disposal:option1">
+            <value>Vermi Compost</value>
+          </text>
+          <text id="/data/general2/waste_disposal:option2">
+            <value>Compost Pit</value>
+          </text>
+          <text id="/data/general2/waste_disposal:option3">
+            <value>Septic Tank</value>
+          </text>
+          <text id="/data/general2/waste_disposal:option4">
+            <value>Others</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <submission method="form-data-post" action="https://docs.google.com/spreadsheets/d/1_4OOnf-fHPRctP3I-AyRgRHFUjtlQgF-cfNE-1xl078/edit?usp=sharing"/>
+      <bind nodeset="/data/user" type="string" jr:preload="property" jr:preloadParams="username"/>
+      <bind nodeset="/data/phne" type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
+      <bind nodeset="/data/common/wardno" type="int" required="true()"/>
+      <bind nodeset="/data/common/hno" type="int" required="true()"/>
+      <bind nodeset="/data/common/subdoor" type="string" required="true()"/>
+      <bind nodeset="/data/common/rationcard" type="string" required="true()"/>
+      <bind nodeset="/data/common/house-name" type="string" required="true()"/>
+      <bind nodeset="/data/kaar_karu/enrollment_status" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/kaar_karu/enrollment_status:requiredMsg')"/>
+      <bind nodeset="/data/kaar_karu/fee_paid" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/kaar_karu/fee_paid:requiredMsg')"/>
+      <bind nodeset="/data/kaar_karu/receipt_no" type="string"/>
+      <bind nodeset="/data/general1/agriculture" type="select" required="true()"/>
+      <bind nodeset="/data/general1/water_sources" type="select" required="true()"/>
+      <bind nodeset="/data/general1/irrigation" type="select" required="true()"/>
+      <bind nodeset="/data/general2/sanitation" type="select" required="true()"/>
+      <bind nodeset="/data/general2/waste_disposal" type="select"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/common:label')"/>
+      <input ref="/data/common/wardno">
+        <label ref="jr:itext('/data/common/wardno:label')"/>
+      </input>
+      <input ref="/data/common/hno">
+        <label ref="jr:itext('/data/common/hno:label')"/>
+        <hint ref="jr:itext('/data/common/hno:hint')"/>
+      </input>
+      <input ref="/data/common/subdoor">
+        <label ref="jr:itext('/data/common/subdoor:label')"/>
+        <hint ref="jr:itext('/data/common/subdoor:hint')"/>
+      </input>
+      <input ref="/data/common/rationcard">
+        <label ref="jr:itext('/data/common/rationcard:label')"/>
+        <hint ref="jr:itext('/data/common/rationcard:hint')"/>
+      </input>
+      <input ref="/data/common/house-name">
+        <label ref="jr:itext('/data/common/house-name:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/kaar_karu:label')"/>
+      <select1 ref="/data/kaar_karu/enrollment_status" appearance="minimal">
+        <label ref="jr:itext('/data/kaar_karu/enrollment_status:label')"/>
+        <hint ref="jr:itext('/data/kaar_karu/enrollment_status:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/kaar_karu/enrollment_status:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kaar_karu/enrollment_status:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/data/kaar_karu/fee_paid" appearance="minimal">
+        <label ref="jr:itext('/data/kaar_karu/fee_paid:label')"/>
+        <hint ref="jr:itext('/data/kaar_karu/fee_paid:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/kaar_karu/fee_paid:option0')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kaar_karu/fee_paid:option1')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/kaar_karu/receipt_no">
+        <label ref="jr:itext('/data/kaar_karu/receipt_no:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general1:label')"/>
+      <select ref="/data/general1/agriculture" appearance="minimal">
+        <label ref="jr:itext('/data/general1/agriculture:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general1/agriculture:option0')"/>
+          <value>coconut</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/agriculture:option1')"/>
+          <value>paddy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/agriculture:option2')"/>
+          <value>vegetables</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/agriculture:option3')"/>
+          <value>other</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/agriculture:option4')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/data/general1/water_sources" appearance="minimal">
+        <label ref="jr:itext('/data/general1/water_sources:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general1/water_sources:option0')"/>
+          <value>open_well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/water_sources:option1')"/>
+          <value>bore_well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/water_sources:option2')"/>
+          <value>pipe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/water_sources:option3')"/>
+          <value>public_tank</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/water_sources:option4')"/>
+          <value>lorry</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/water_sources:option5')"/>
+          <value>others</value>
+        </item>
+      </select>
+      <select ref="/data/general1/irrigation" appearance="minimal">
+        <label ref="jr:itext('/data/general1/irrigation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general1/irrigation:option0')"/>
+          <value>well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/irrigation:option1')"/>
+          <value>pond</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/irrigation:option2')"/>
+          <value>lift_irrigation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general1/irrigation:option3')"/>
+          <value>none</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/general2:label')"/>
+      <select ref="/data/general2/sanitation" appearance="minimal">
+        <label ref="jr:itext('/data/general2/sanitation:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general2/sanitation:option0')"/>
+          <value>flush_toilet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general2/sanitation:option1')"/>
+          <value>esp_latrine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general2/sanitation:option2')"/>
+          <value>pit_latrine</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general2/sanitation:option3')"/>
+          <value>septic_tank</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general2/sanitation:option4')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/data/general2/waste_disposal" appearance="minimal">
+        <label ref="jr:itext('/data/general2/waste_disposal:label')"/>
+        <item>
+          <label ref="jr:itext('/data/general2/waste_disposal:option0')"/>
+          <value>biogas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general2/waste_disposal:option1')"/>
+          <value>vermi_compost</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general2/waste_disposal:option2')"/>
+          <value>compost_pit</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general2/waste_disposal:option3')"/>
+          <value>septic_tank_</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/general2/waste_disposal:option4')"/>
+          <value>others</value>
+        </item>
+      </select>
+    </group>
+  </h:body>
+</h:html>
